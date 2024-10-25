@@ -1,7 +1,5 @@
-import Hello from '~/components/Hello';
-
 function App() {
-  return <Hello />;
+  return <div className=''>oi</div>;
 }
 
 export default App;
