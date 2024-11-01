@@ -5,12 +5,9 @@ import { App } from './App';
 
 // styles
 import './index.css';
-import { AppProvider } from './contexts/AppContext';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <AppProvider>
-      <App />
-    </AppProvider>
+    <App />
   </React.StrictMode>,
 );
